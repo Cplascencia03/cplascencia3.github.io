@@ -1,0 +1,163 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+body{
+   font-family: 'Raleway', sans-serif;
+}
+#title{
+   background-color: #186F65;
+   z-index: 1;
+   position: relative;
+}
+
+.container-fluid{
+padding: 3% 15%;
+}
+
+h1{
+   font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+   font-size: 3rem;
+   line-height: 1.5;
+   color: #fff;
+}
+
+h2{
+   color: #fff;
+   font-family: 'Raleway';
+   font-size: 1.5; 
+   font-weight: bold;
+}
+
+h3{
+   font-family: 'Raleway';
+   font-weight: bold;
+}
+
+p{
+   color:#8f8f8f;
+}
+/* navigation bar */
+.navbar{
+   padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand{
+   font-family: 'Lora' ;
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+
+.nav-item{
+   padding:0 18px ;
+}
+
+.navbar-link{
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.2rem;
+}
+
+.download-button{
+   margin: 5% 3% 5% 0;
+}
+
+.title-image{
+   width: 60%;
+   transform: rotate(20deg);
+   z-index: 2;
+   position: absolute;
+}
+
+/* features section*/
+
+#features {
+   padding: 7% 15% ;
+   background-color: #F6F1EE;
+   z-index: 3;
+   position: relative;
+}
+
+.feature-box{
+   text-align: center;
+   padding: 5%;
+}
+
+.icon{
+   color: #d0a842;
+   margin-bottom: 1rem;
+}
+
+.icon:hover{
+   color: #186F65;
+}
+/* testimonials section */
+#testimonials {
+   text-align: center;
+   background-color: #186F65;
+}
+.carousel-item{
+   padding: 7% 15%;
+}
+.testimonial-image{
+   width: 10%;
+   border-radius: 50%;
+   margin: 20px;
+}
+
+#press{
+   background-color: #186F65;
+   text-align: center;
+}
+
+.press-logo{
+   width: 10%;
+   margin: 20px 20px 50px;
+}
+
+/* pricing section*/ 
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+
+.pricing-header{
+   color: black;
+}
+
+.pricing-column{
+   padding: 3% 2%;
+}
+/* Call to actions CTA */
+#cta{
+   background-color: #186F65;
+   color: #F6F1EE;
+   padding: 7% 15%;
+   text-align: center;
+}
+.cta-heading{
+   font-family: 'Raleway';
+   font-weight: bold;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+/* footer section */
+
+#footer{
+   padding: 7% 15%;
+   text-align: center;
+}
+
+.social-icon{
+   margin: 20px 10px;
+   color: #d0a842;
+}
+
+/* media queries */
+@media (max-width: 1028px){
+   #title{
+      text-align: center;
+   }
+   .title-image{
+      position: static;
+      transform: rotate(0);
+   }
+}
