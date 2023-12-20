@@ -1,0 +1,60 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+
+nav {
+   background-color: #444;
+   padding: 10px;
+   text-align: center;
+}
+
+nav a {
+   color: #fff;
+   text-decoration: none;
+   padding: 10px;
+   margin: 0 10px;
+}
+
+main {
+   padding: 20px;
+}
+
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+main section {
+   margin-bottom: 30px;
+}
+
+.project {
+   border: 1px solid #ddd;
+   padding: 15px;
+   margin-bottom: 20px;
+}
+
+.project h3 {
+   margin-top: 0;
+}
+
+#hobbyCarousel .carousel-item img {
+   width: 100%; /* responsive width */
+   height: 500px; /* keep the height fixed height */
+   object-fit: cover; /* don't want the image to be distorted */
+}
